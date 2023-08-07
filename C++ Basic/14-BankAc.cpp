@@ -11,8 +11,8 @@ BankInfo(){
     balance =500;
 }
 void show(){
-    cout<<"  Your account no: "<<ac_no<<endl;
-    cout<<"  Your initial Bank balance is: "<<balance<<endl<<endl;
+    cout<<endl<<"  Your account no: "<<ac_no<<endl;
+    cout<<"  Gift balance is: "<<balance<<endl<<endl;
 }
 void addmoney(){
     int add_money;
