@@ -29,7 +29,7 @@ int main(){
     Bankaccount ob;
     ATM ob1;
     int a;
-  cin>>a;
+   cin>>a;
     ob1.withdraw(a);
 return 0;
 };
