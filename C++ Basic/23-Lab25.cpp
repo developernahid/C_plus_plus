@@ -14,10 +14,10 @@ class Employee{
 void check(Employee ob1, Employee ob2){
         if (ob2.salary>ob1.salary)
         {
-        cout<<"Employee id:"<<ob2.id<<" salary is highest"<<endl;
+        cout<<"Employee id: "<<ob2.id<<" salary is highest"<<endl;
         }
         else{
-        cout<<"Employee id:"<<ob1.id<<" salary is highest"<<endl;
+        cout<<"Employee id: "<<ob1.id<<" salary is highest"<<endl;
         }
     }
 int main(){
@@ -31,3 +31,4 @@ int main(){
     check(p1,p2);
     return 0;
 }
+

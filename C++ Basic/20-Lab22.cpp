@@ -20,7 +20,6 @@ cout<<"Name:" <<n.name<<" & "<<"Color:"<<n.color<<endl;
 }
 int main(){
     Flower ob,ob1;
-   ob1=get_in(ob);
+    ob1=get_in(ob);
    get_out(ob1);
-
 }

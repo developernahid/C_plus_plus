@@ -11,7 +11,7 @@ void get(Shape ob){
     cout<<ob.shape_name<<endl;
     cout<<"Enter Len & Wid:";
     cin>>len>>wid;
-    cout<<"Area= "<<len*wid<<endl<<"Parimeter= "<<2*(len+wid)<<endl;
+    cout<<"Area= "<<len*wid<<endl<<"Perimeter= "<<2*(len+wid)<<endl;
 }
 int main(){
     Shape ob;

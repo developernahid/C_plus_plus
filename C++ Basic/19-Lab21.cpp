@@ -19,6 +19,7 @@ void cal(Calculator n){
 int main(){
     Calculator ob;
     cal(ob);
-
     return 0;
 }
+
+
