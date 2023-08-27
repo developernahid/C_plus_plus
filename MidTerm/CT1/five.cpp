@@ -3,6 +3,22 @@
 using namespace std;
 class RestrictedData{
     private:
-    publicData; 
-
+    int privateData; 
+    public:
+    int publicData;
+    RestrictedData(){
+        privateData=0;
+        publicData=0;
+    }
+    void setData(){
+        cin>>privateData>>publicData;
+    }
+    void showData(){
+        cout<<"Private data: "<<" "<<privateData<<"Public data: "<<publicData<<endl;
+    }
 };
+int main(){
+    RestrictedData ob;
+    ob.setData();
+    ob.showData();
+}
