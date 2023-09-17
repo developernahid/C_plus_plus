@@ -1,31 +1,27 @@
-/*
-How can we take input of a private data of a object of array.
-*/
 #include <bits/stdc++.h>
 using namespace std;
-class Nahid{
+class Student{
     private:
-    int id;
+    string id;
     string name;
+    double cgpa;
     public:
-    void get(){
-        cin>>id>>name;
+    void set(){
+        cin>>name>>id>>cgpa;
     }
-    void put(){
-        cout<<id<<" "<<name<<endl;
+    void show(){
+        cout<<name<<" "<<id<<" "<<cgpa<<endl;
     }
 };
 
 int main(){
-    Nahid o[5];
-    // As long as the loop runs the get() function will called and take input from user. This is the concept
-    for (int i = 0; i < 5; i++)
+    Student ob[11];
+    for (int i = 1; i <=10; i++)
+    { 
+        ob[i].set();
+    }for (int i = 1; i <=10; i++)
     {
-        o[i].get();
-     // As long as the loop runs the put() function will called and print the values. This is the concept
-    }for (int i = 0; i < 5; i++)
-    {
-        o[i].put();
+        ob[i].show();
     }
     return 0;
 }

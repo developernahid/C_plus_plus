@@ -16,7 +16,7 @@ int get_sal(){
 };
 int main(){
 secret nahid;
-nahid.set_sal(12000);
+nahid.set_sal(120);
 cout<<nahid.get_sal()<<endl;
 
     return 0;
