@@ -18,7 +18,7 @@ void addmoney(){
     int add_money;
     cout<<"  Enter amount:";
     cin>>add_money;
-    total_bal= balance+add_money;
+    total_bal= balance+add_money+total_bal;
     cout<<"  Now, your total balance: "<<total_bal<<endl;
 }
 void withdraw_money(){
@@ -30,7 +30,8 @@ void withdraw_money(){
         cout<<"  You enter Insufficent withdraw amount"<<endl;
     }
     else{
-    cout<<"  Now, your total balance: "<<total_bal-withd_money<<endl;
+    total_bal= total_bal-withd_money;
+    cout<<"  Now, your total balance: "<<total_bal<<endl;
     }
     }
 };
