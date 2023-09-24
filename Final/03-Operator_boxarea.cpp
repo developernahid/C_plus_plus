@@ -5,9 +5,7 @@ class Box{
     public:
     void input(){
         cin>>h>>l>>w;
-    }
-    void Area(){
-        area= h*l*w;
+         area= h*l*w;
     }
    Box operator+(Box &o){
     Box r;
